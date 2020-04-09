@@ -157,5 +157,5 @@ advanced_settings:
   ajax_loading: true
   analytics_code: ""
   custom_styles: ""
-  header_js: ""
+  header_js: "<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us19.list-manage.com","uuid":"f35bb0190e8492f791cb4374b","lid":"1f073d6c17","uniqueMethods":true}) })</script>"
   footer_js: ""
