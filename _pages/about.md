@@ -5,7 +5,7 @@ description: Java Champion, Microsoft MVP, and TDC Rockstar
 featured_image: /images/demo/demo-portrait.jpg
 ---
 
-![](/images/demo/demo-landscape.jpg)
+![](/images/about/49097312821_b525f98c3f_o.jpg)
 
 ## Features
 
