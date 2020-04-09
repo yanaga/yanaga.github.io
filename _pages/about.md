@@ -2,7 +2,7 @@
 title: About Edson Yanaga
 subtitle: Developer, Teacher, and Enabler
 description: Java Champion, Microsoft MVP, and TDC Rockstar
-featured_image: /images/demo/demo-portrait.jpg
+featured_image: /images/about/catedral_maringa.jpg
 ---
 
 ![](/images/about/49097312821_b525f98c3f_o.jpg)
