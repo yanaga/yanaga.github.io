@@ -1,7 +1,7 @@
 ---
-title: About Journal
-subtitle: A stunning personal blog Jekyll theme with an image-focused design.
-description: A stunning personal blog Jekyll theme with an image-focused design.
+title: About Edson Yanaga
+subtitle: Developer, Teacher, and Enabler
+description: Java Champion, Microsoft MVP, and TDC Rockstar
 featured_image: /images/demo/demo-portrait.jpg
 ---
 
