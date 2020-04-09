@@ -1,6 +1,6 @@
 basic_settings:
   site_title: Edson Yanaga
-  site_tagline: A stunning personal blog Jekyll theme with an image-focused design.
+  site_tagline: Java Champion & Microsoft MVP. Empowering developers worldwide to deliver better software faster as Director of Developer Experience at Red Hat.
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -31,13 +31,14 @@ contact_settings:
 social_settings:
   facebook_url: ''
   twitter_url: 'https://twitter.com/yanaga'
+  linkedin_url: 'https://www.linkedin.com/in/yanaga'
+  youtube_url: 'https://www.youtube.com/channel/UCepe6r1jXIKWkk_JYcDUWMg'
   instagram_url: ''
   snapchat_url: ''
-  youtube_url: ''
   google-plus_url: ''
   vimeo_url: ''
   pinterest_url: ''
-  medium_url: ''
+  medium_url: 'https://medium.com/@yanaga'
   quora_url: ''
   amazon_url: ''
   apple_url: ''
@@ -54,7 +55,6 @@ social_settings:
   soundcloud_url: ''
   spotify_url: ''
   bandcamp_url: ''
-  linkedin_url: 'https://www.linkedin.com/in/yanaga'
 
 color_settings:
   background_color: '#ffffff'
