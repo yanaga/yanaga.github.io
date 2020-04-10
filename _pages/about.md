@@ -5,7 +5,7 @@ description: Java Champion, Microsoft MVP, and TDC Rockstar
 featured_image: /images/side/catedral-maringa.jpg
 ---
 
-![](/images/about/49097312821_b525f98c3f_o.jpg)
+![](/images/about/devoxx-2017-big-screen.jpg)
 
 ## Features
 
