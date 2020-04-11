@@ -7,29 +7,11 @@ featured_image: /images/side/catedral-maringa.jpg
 
 ![](/images/about/devoxx-2017-big-screen.jpg)
 
-## Features
+### Who am I?
 
-Journal is packed with powerful features to showcase your work:
+### Minibio
 
-* Beautiful, minimal design
-* Fixed sidebar images that animate as you browse
-* Single column post layout
-* Responsive – works perfectly on all devices
-* Portfolio/projects post type to show your work
-* Blog with pagination
-* Sleek Ajax navigation and page transitions
-* Unique 'gallery' feature for image grids and carousels
-* Built-in contact form with Formspree integration
-* Full markdown support and code highlighting
-* Social media icons
-* Fast page rendering
-* Built with SEO best practices in mind
-* Customize everything – colors, spacing, fonts, sizes etc. – via a simple settings file
-* Works with GitHub Pages
-* Updated and supported by the developers
+Edson Yanaga, Red Hat's Director of Developer Experience, is a Java Champion and a Microsoft MVP. He is also a published author and a frequent speaker at international conferences, discussing Java, Microservices, Cloud Computing, DevOps, and Software Craftsmanship. 
 
-## Get Index
+Yanaga considers himself a software craftsman, and is convinced that we all can create a better world for people with better software. His life's purpose is to deliver and help developers worldwide to deliver better software faster and safely - and he can even call that a job!
 
-Journal is created and supported by [Jekyll Themes](https://jekyllthemes.io), and is available for $49.
-
-<a href="https://jekyllthemes.io/theme/journal-personal-jekyll-theme" class="button button--large">Get This Theme</a>
