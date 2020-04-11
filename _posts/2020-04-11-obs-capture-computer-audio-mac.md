@@ -2,7 +2,7 @@
 title: 'Capturing your MacOS computer audio in a BlueJeans meeting with OBS'
 date: 2020-04-11
 featured_image: '/images/posts/2020/4/obs-with-bj-screen.png'
-excerpt: So you're already streaming great content over your OBS setup, but you want to add the functionality of joining a BlueJeans *(replace with your favorite virtual meeting application like Zoom, Google Meet, WebEx...)* meeting and sharing it with your stream. If you already tried, you've noticed that the video capture is not a problem, but you don't have the meeting audio in your stream. Well, then this post is for you.
+excerpt: So you're already streaming great content over your OBS setup, but you want to add the functionality of joining a BlueJeans (replace with your favorite virtual meeting application like Zoom, Google Meet, WebEx...) meeting and sharing it with your stream. If you already tried, you've noticed that the video capture is not a problem, but you don't have the meeting audio in your stream. Well, then this post is for you.
 ---
 
 So you're already streaming great content over your OBS setup, but you want to add the functionality of joining a BlueJeans *(replace with your favorite virtual meeting application like Zoom, Google Meet, WebEx...)* meeting and sharing it with your stream.
