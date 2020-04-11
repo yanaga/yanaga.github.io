@@ -1,6 +1,6 @@
 ---
 title: 'Why you should do what you do'
-date: 2020-04-10 00:00:00
+date: 2020-04-10
 featured_image: '/images/posts/2020/4/gratitude-road.jpg'
 excerpt: This page is a demo that shows everything you can do inside portfolio and blog posts. We've included everything you need to create engaging posts about your work, and show off your case studies in a beautiful way.
 ---
