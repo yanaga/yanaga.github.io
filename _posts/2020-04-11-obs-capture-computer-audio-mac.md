@@ -17,9 +17,9 @@ Well, then this post is for you.
 
 First you need to install an extension called iShowU Audio Capture to capture the audio from your computer.
 
-If you're using MacOS Catalina, follow the instructions in this link: https://support.shinywhitebox.com/hc/en-us/articles/360030800592-Install-iShowU-Audio-Capture-Mojave-Catalina
+If you're using MacOS Catalina, follow the instructions in this [link](https://support.shinywhitebox.com/hc/en-us/articles/360030800592-Install-iShowU-Audio-Capture-Mojave-Catalina).
 
-With earlier versions of MacOS should follow the instructions here: https://support.shinywhitebox.com/hc/en-us/articles/204161459-Installing-iShowU-Audio-Capture-Mojave-and-earlier-
+With earlier versions of MacOS should follow the instructions [here](https://support.shinywhitebox.com/hc/en-us/articles/204161459-Installing-iShowU-Audio-Capture-Mojave-and-earlier-).
 
 ### Create a Multi-Output Audio Device
 
