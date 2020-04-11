@@ -13,7 +13,7 @@ Well, then this post is for you.
 
 ![](/images/posts/2020/4/obs-with-bj-screen.png)
 
-## Install iShowU Audio Capture
+### Install iShowU Audio Capture
 
 First you need to install an extension called iShowU Audio Capture to capture the audio from your computer.
 
@@ -21,103 +21,52 @@ If you're using MacOS Catalina, follow the instructions in this link: https://su
 
 With earlier versions of MacOS should follow the instructions here: https://support.shinywhitebox.com/hc/en-us/articles/204161459-Installing-iShowU-Audio-Capture-Mojave-and-earlier-
 
-## Create a Multi-Output Audio Device
+### Create a Multi-Output Audio Device
 
-We'll create a new virtual device on your computer that will basically aggregate multiple audio outputs in a single one. This way your computer will be able to send the sound to **both** your speakers and the iShowU Audio Capture (which will later be used as an input device in OBS).
+- Open the "Audio MIDI Setup" application
+- We'll create a new virtual device on your computer that will basically aggregate multiple audio outputs in a single one. This way your computer will be able to send the sound to **both** your speakers and the iShowU Audio Capture (which will later be used as an input device in OBS).
 
 ![](/images/posts/2020/4/create-multi-output-device.png)
 
+- Now configure your Multi-Output Device by checking the "Use" column with "iShowU Audio Capture" and your default audio device. In this particular example we'll be using the "MacBook Pro Speakers" as our sound output.
+- Also check the "Drift Correction" on your default audio device. Once again in our example it's "MacBook Pro Speakers".
+
 ![](/images/posts/2020/4/configure-multi-output-device.png)
 
-This page is a demo that shows everything you can do inside portfolio and blog posts.
+- Now set your default sound output on your Mac to the new "Multi-Output Device" that we created.
 
-We've included everything you need to create engaging posts about your work, and show off your case studies in a beautiful way.
+![](/images/posts/2020/4/sound-preferences.png)
 
-**Obviously,** we’ve styled up *all the basic* text formatting options [available in markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+## Configuring OBS
 
-You can create lists:
+Now that we have everything set to capture our computer audio, we can configure OBS for the streaming.
 
-* Simple bulleted lists
-* Like this one
-* Are cool
+- Create a new Scene and name it "BlueJeans"
 
-And:
+![](/images/posts/2020/4/new-obs-scene.png)
 
-1. Numbered lists
-2. Like this other one
-3. Are great too
+- Add a new "Audio Input Capture" Source
 
-You can also add blockquotes, which are shown at a larger width to help break up the layout and draw attention to key parts of your content:
+![](/images/posts/2020/4/new-obs-audio-capture.png)
 
-> “Simple can be harder than complex: You have to work hard to get your thinking clean to make it simple. But it’s worth it in the end because once you get there, you can move mountains.”
+- Name it "iShowU Audio Capture"
 
-The theme also supports markdown tables:
+![](/images/posts/2020/4/new-ishowu-audio-capture.png)
 
-| Item                 | Author        | Supports tables? | Price |
-|----------------------|---------------|------------------|-------|
-| Duet Jekyll Theme    | Jekyll Themes | Yes              | $49   |
-| Index Jekyll Theme   | Jekyll Themes | Yes              | $49   |
-| Journal Jekyll Theme | Jekyll Themes | Yes              | $49   |
+- Choose the "iShowU Audio Capture" device that we created
 
-And footnotes[^1], which link to explanations[^2] at the bottom of the page[^3].
+![](/images/posts/2020/4/choose-ishowu-audio-capture.png)
 
-[^1]: Beautiful modern, minimal theme design.
-[^2]: Powerful features to show off your work.
-[^3]: Maintained and supported by the theme developer.
+- Add a new "Window Capture" Source
 
-You can throw in some horizontal rules too:
+![](/images/posts/2020/4/new-obs-window-capture.png)
 
----
+- Name it "BlueJeans Window"
 
-### Image galleries
+![](/images/posts/2020/4/new-bluejeans-window.png)
 
-Here's a really neat custom feature we added – galleries:
+- Make sure that your BlueJeans app is already running, and choose the window "[BlueJeans]"
 
-<div class="gallery" data-columns="3">
-	<img src="/images/demo/demo-portrait.jpg">
-	<img src="/images/demo/demo-landscape.jpg">
-	<img src="/images/demo/demo-square.jpg">
-	<img src="/images/demo/demo-landscape-2.jpg">
-</div>
+![](/images/posts/2020/4/choose-bluejeans-window.png)
 
-Inspired by the Galleries feature from WordPress, we've made it easy to create grid layouts for your images. Just use a bit of simple HTML in your post to create a masonry grid image layout:
-
-```html
-<div class="gallery" data-columns="3">
-    <img src="/images/demo/demo-portrait.jpg">
-    <img src="/images/demo/demo-landscape.jpg">
-    <img src="/images/demo/demo-square.jpg">
-    <img src="/images/demo/demo-landscape-2.jpg">
-</div>
-```
-
-*See what we did there? Code and syntax highlighting is built-in too!*
-
-Change the number inside the 'columns' setting to create different types of gallery for all kinds of purposes. You can even click on each image to seamlessly enlarge it on the page.
-
----
-
-### Image carousels
-
-Here's another gallery with only one column, which creates a carousel slide-show instead.
-
-A nice little feature: the carousel only advances when it is in view, so your visitors won't scroll down to find it half way through your images.
-
-<div class="gallery" data-columns="1">
-	<img src="/images/demo/demo-landscape.jpg">
-	<img src="/images/demo/demo-landscape-2.jpg">
-</div>
-
-### What about videos?
-
-Videos are an awesome way to show off your work in a more engaging and personal way, and we’ve made sure they work great on our themes. Just paste an embed code from YouTube or Vimeo, and the theme makes sure it displays perfectly:
-
-<iframe src="https://player.vimeo.com/video/203710832" width="640" height="288" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
----
-
-## Pretty cool, huh?
-
-We've packed this theme with powerful features to show off your work. Why not put them to use on your new portfolio?
-
-<a href="https://jekyllthemes.io/theme/journal-personal-jekyll-theme" class="button button--large">Get This Theme</a>
+*Congratulations!* You're ready to share your meeting in your OBS stream.
